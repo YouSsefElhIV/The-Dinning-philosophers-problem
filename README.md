@@ -15,7 +15,6 @@ The " Dining philosophers problem" is a problem about multiple philosophers each
 - They can do one action at a time.
 - We manage the shared resources between the threads with mutexes to avoid a data races.
       data race occurs when 2 threads access the same shared variable, both changing on it or one changing and the other reading.
-- 
 ## Deployment
 
 To deploy this project run
